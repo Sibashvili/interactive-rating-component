@@ -2,7 +2,7 @@ import React from "react";
 import starLogo from "./assets/icon-star.svg";
 function Mainpage({ setActiveRating, setStatus, activeRating }) {
   function handleClick(e) {
-    const point = e.target.value;
+    const point = +e.target.value;
     setActiveRating(point);
   }
 
@@ -29,16 +29,44 @@ function Mainpage({ setActiveRating, setStatus, activeRating }) {
         >
           1
         </button>
-        <button value={2} onClick={handleClick} className="btn">
+        <button
+          style={{
+            backgroundColor: activeRating === 2 ? "#fc7614" : "#262E38",
+          }}
+          value={2}
+          onClick={handleClick}
+          className="btn"
+        >
           2
         </button>
-        <button value={3} onClick={handleClick} className="btn">
+        <button
+          style={{
+            backgroundColor: activeRating === 3 ? "#fc7614" : "#262E38",
+          }}
+          value={3}
+          onClick={handleClick}
+          className="btn"
+        >
           3
         </button>
-        <button value={4} onClick={handleClick} className="btn">
+        <button
+          style={{
+            backgroundColor: activeRating === 4 ? "#fc7614" : "#262E38",
+          }}
+          value={4}
+          onClick={handleClick}
+          className="btn"
+        >
           4
         </button>
-        <button value={5} onClick={handleClick} className="btn">
+        <button
+          style={{
+            backgroundColor: activeRating === 5 ? "#fc7614" : "#262E38",
+          }}
+          value={5}
+          onClick={handleClick}
+          className="btn"
+        >
           5
         </button>
       </div>
