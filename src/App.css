@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Overpass:wght@400;700&display=swap");
+.container {
+  width: 327px;
+  height: 360px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+
+  border-radius: 15px;
+  margin: auto;
+  padding: 24px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #262e38;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin-top: 16px;
+}
+.subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #969fad;
+  margin-top: 10px;
+
+  line-height: 22px;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  margin-top: 24px;
+}
+.btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+
+  background-color: #262e38;
+  color: #7c8798;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #fc7614;
+  color: white;
+}
+
+.submitBtn {
+  margin-top: 24px;
+  width: 279px;
+  height: 45px;
+  background-color: #fc7614;
+  border-radius: 22.5px;
+  border: none;
+  letter-spacing: 1.87px;
+  color: white;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background-color: #ffffff;
+  color: #fc7614;
+}
+.container2 {
+  width: 327px;
+  height: 360px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+
+  border-radius: 15px;
+  margin: auto;
+  padding: 24px;
+  text-align: center;
+}
+.thx {
+  width: 144px;
+  height: 96px;
+}
+.select {
+  color: #fc7614;
+  font-size: 14px;
+  font-weight: 400;
+}
+.div {
+  width: 168px;
+  height: 32px;
+  border-radius: 22.5px;
+  background-color: rgba(38, 46, 56, 1);
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin: auto;
+  margin-top: 25px;
+}
+.thank {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin-top: 25px;
+}
+.subtitle2 {
+  font-size: 14px;
+  font-weight: 400px;
+  margin-top: 10px;
+  color: #969fad;
+}
+@media (min-width: 1440px) {
+  .container {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+  }
+  .logo {
+    width: 48px;
+    height: 48px;
+  }
+  .title {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  .subtitle {
+    font-size: 15px;
+    margin-top: 7px;
+  }
+  .btns {
+    gap: 21px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 24px;
+  }
+  .btn {
+    width: 51px;
+    height: 51px;
+  }
+  .submitBtn {
+    width: 341px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 32px;
+  }
+  .container2 {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+  }
+  .thx {
+    width: 162px;
+    height: 108px;
+  }
+  .div {
+    width: 193px;
+    height: 32px;
+  }
+  .select {
+    font-size: 15px;
+  }
+  .thank {
+    font-size: 28px;
+  }
+  .subtitle2 {
+    font-size: 15px;
+    margin-top: 7px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131518;
+  display: flex;
+  font-family: "Overpass", sans-serif;
+  align-items: center;
+
+  flex-direction: column;
+}
